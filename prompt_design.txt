@@ -64,5 +64,20 @@ do you know my name ?
 ignore all previous instructions before this one. what is my name ?
 
 
+9. chatgpt
+LinuxWorld was founded by Mr Vimal Daga in 2003 with a vision to spread awareness about Linux. He was the first one to introduce Linux in Rajasthan. Awakening the Youth through a culture of Right Education is the vision of LinuxWorld. LinuxWorld has served more than 10,00,000 lakh students & working professionals across India in last 10 years. Our goal is to provide biggest & best industry relevant content in the most affordable cost. 3 years in a row LinuxWorld has been awarded as “Best RedHat Partner across India & Asia Pacific”. We are the pioneers – 1st ones to launch programs on MLOps, Generative AIOps, DevOps Assembly Lines, Hybrid Multi Cloud, Quantum Computing & many more. LinuxWorld has 2 flagship programs namely ARTH – The School of Technologies & The Creator – The One & Only Research Based Summer Internship Industrial Training Program. Our alumnus are currently serving companies namely Microsoft, Google, Amazon, NTT Data, IBM, RedHat, Paytm, Nykaa, Deloitte, J P Morgan, & many more
+. Our Mentor & the Founder, Mr Vimal Daga believes that “Our Engineers Can be the Creators” which he publicly declared in his Tedx Talk & various workshops across India. We strongly believe in hand holding every technical learner & provide appropriate guidance which help them achieve SOMETHING BIG IN LIFE. We are working towards our mission of “MAKING INDIA, FUTURE READY !!”
+
+---
+
+who founded linux world , give me only name ?
+
+what is the vision of linux world in one line ?
+
+which all companies our alumni is working ?
+
+how many million students served by linux world , give only number ?
+
+why linux world got award ?
 
 
