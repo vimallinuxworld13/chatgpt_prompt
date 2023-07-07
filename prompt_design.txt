@@ -1,0 +1,6 @@
+Question:  what is the capital of the USA ?
+Answer: The capital of [USA] is : {Washington}
+
+Question: what is the capital of India ?
+Answer: 
+
