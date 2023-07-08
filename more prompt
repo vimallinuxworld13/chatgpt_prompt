@@ -1,0 +1,414 @@
+count the word : human are
+
+---------------
+
+
+translate the text below to Hindi: 
+Text: "i want you"
+
+---------------------
+
+Extract the place names in the following
+
+Desired Format:
+Places: <comma_separated_list_of_places>
+
+Input: Airbnb, Inc. (/ˌɛərˌbiːɛnˈbiː/ AIR-BEE-en-BEE) is an American San Francisco-based company operating an online marketplace for short- and long-term homestays and experiences. The company acts as a broker and charges a commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia. Airbnb is a shortened version of its original name, AirBedandBreakfast.com. The company is credited with revolutionizing the tourism industry, while also having been the subject of intense criticism by residents of tourism hotspot cities like Barcelona and Venice for enabling an unaffordable increase in home rents, and for a lack of regulation.[4][5]
+
+-------------------------------
+
+
+Generate a list of the top 5 populated countries on earth with their population 
+
+Desired Format: JSON object with country name as key and population as value
+
+---------------------------------
+
+Summarize the following text
+
+Airbnb, Inc. (/ˌɛərˌbiːɛnˈbiː/ AIR-BEE-en-BEE) is an American San Francisco-based company operating an online marketplace for short- and long-term homestays and experiences. The company acts as a broker and charges a commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia. Airbnb is a shortened version of its original name, AirBedandBreakfast.com. The company is credited with revolutionizing the tourism industry, while also having been the subject of intense criticism by residents of tourism hotspot cities like Barcelona and Venice for enabling an unaffordable increase in home rents, and for a lack of regulation.[4][5]
+
+------------------------------
+
+alice is 7 years old than Beth, who is 5 years older than erica. what is the difference between the ages of alice and erica, if erica is 30 years old ?
+
+let's think step by step
+
+
+---------------------
+
+
+
+“Priming” refers to the practice of providing some initial input to the model before generating a response. The
+initial input is intended to guide the model toward generating a response that is more relevant and coherent with
+the user's intended output
+
+Without priming: Where should I go on my next vacation?
+
+With priming: I’d like to go on a trip with my wife and kids, the location should be tropical, we’d love to be close to
+the beach, I’d like the flight to be one direct flight to and from LAX, and I have a travel budget of $5,000. Where
+should I go on my next vacation?
+
+
+-----------------------------------------
+
+Without priming: Please create 3 potential titles for my new online course that teaches how to use AI. 
+
+With priming: Please create 3 potential titles for my new online course that teaches how to use AI. Here is an
+example of my recent course titles, please emulate the styling and written format of these: “Video Editing
+Masterclass: Edit Your Videos Like a Pro!” “Cinematography Masterclass: The Complete Videography Guide”
+
+
+--------------------------------------
+
+
+1. Brainstorm New Ideas 
+
+Prompt Formula
+• I'm looking to explore [subject] in a [format]. Do you have any suggestions on [topics] I can cover?
+Examples
+• I'm interested in creating an Instagram page that covers travel. What ideas do you have on topics I could
+include, such as budget-friendly destinations and hidden gems to visit?
+• I'm working on a newsletter that focuses on technology. Can you recommend topics that would be engaging
+for my audience, such as the latest gadgets and software updates?
+
+-----------------------------------
+
+2. Copy Generation
+Prompt Formula
+• I'm interested in [type of text] that highlights the [benefits] of [subject]. Please write [#] for me on [subject].
+Examples
+• I need an email campaign that showcases the features of my new product. Can you write one for me on the
+ease of use and affordability of the product?
+• I'm interested in a website page that outlines the benefits of my coaching services. Could you write one for
+me on the personalized approach and proven results of my coaching program?
+
+------------------------------------
+
+
+3. Client and Customer Support/Email
+Prompt Formula
+• I want you to act as a customer support assistant who is [characteristic]. How would you respond to [text] as a
+representative of our [type] company?
+Examples
+• I want you to act as a customer support assistant who is analytical. How would you respond as a representative of our
+tech startup to a customer who has experienced a bug while using our software?
+• I want you to act as a customer support assistant who embodies confidence and empathy. How would you assist a
+customer with a billing issue as a representative of our financial services company?
+
+-------------------------------
+
+
+4. Generate Analogies
+Prompt Formula
+• I'm trying to better understand the concept of [concept], please help me better understand this concept by creating a
+practical and easy to understand analogy.
+Examples
+• I'm trying to better understand the concept of photosynthesis, please help me better understand this concept by
+creating a practical and easy to understand analogy.
+• I'm trying to better understand the concept of search engine optimization, please help me better understand this
+concept by creating a practical and easy to understand analogy
+
+
+
+----------------------------------
+
+
+
+5. Bulk Copy Creation
+Prompt Formula
+• Please come up with [# of content] [type of content] for [platform] that includes [references].
+Examples
+• Please come up with 8 email newsletters for my investment site that includes industry reports and data analysis.
+• Please come up with 4 video scripts for a marketing YouTube channel that includes expert opinions and insights on
+digital marketing trends.
+
+
+-------------------------------------
+
+
+Shot Prompting:
+The three variations of shot prompting entail giving ChatGPT complete autonomy to generate any response with
+zero shot prompting, to placing parameters and giving reference data with one and few shot prompting.
+Prompt Formula
+• Zero Shot: No previous data or guidelines given before completing request.
+• One Shot: One piece of data or guideline given before completing request.
+• Few Shot: Multiple pieces of data or guidelines given before completing request.
+Examples
+• Zero Shot: “Write a YouTube script for my tech review channel.”
+• One Shot: “Using this Example 1 as reference, write a YouTube script for my tech review channel.”
+• Few Shot: “Using these Example 1, 2, 3 as reference, write a 5 minute YouTube script on the latest iPhone camera
+specifications for my tech review channel. Start with a 10 second hook and notate a photo for each main point.”
+
+
+---------------------------------------
+
+
+
+Chain of Thought Prompting:
+This framework is a technique to guide ChatGPT to explain its answers in a step-by-step format of its reasoning
+process. This technique helps ensure that the model's answers are transparent and easy to understand, making its
+explanations more useful for educational or explanatory purposes.
+Prompt Formula
+• [Your question]. Let’s think step by step.
+Examples
+• What is the diameter of the sun? Let’s think step by step.
+• What is the weight of an oxygen molecule? Let’s think step by step. 
+
+
+--------------------------------------
+
+
+Tabular Format Prompting:
+Using tabular format with ChatGPT allows for clear organization and presentation of data, making it easier for the
+user to analyze and comprehend the output. This leads to more accurate understandings and insights.
+Prompt Formula
+1. [Your question].
+2. What are the different categories you can break your answer into for more descriptiveness?
+3. Now create one table that includes your original answer with these categories separated into different columns.
+Examples
+• What are the main factors of growing a YouTube channel?
+• Please list the top 5 travel destinations in South America.
+
+
+-----------------------------------------
+
+
+Ask Before Answer Prompting:
+This framework is a technique to guide ChatGPT to ask for clarification before giving an answer. This helps ensure
+that the model’s answers are as accurate and specific as possible.
+Prompt Formula
+1. You are an expert in the field of [industry]. I’m going to ask you to complete some specific tasks, but before you
+answer, I want you to do the following: If you have any questions about my task or uncertainty about delivering the
+best answer possible, always ask bullet point questions for clarification before generating your answer. Is that
+understood?
+2. Great, my question is [question]. Your task is to [task]. Please ask any questions you have so that I can improve my
+prompt before you complete your task.
+Examples
+• Great, my question is how can I drive more sales for my consulting business? Your task is to create a step by step
+guide for me to implement into my business. Please ask any questions you have so that I can improve my prompt
+before you complete your task.
+• Great, my question is how can I use ChatGPT to maximize my productivity? Your task is to make a weekly schedule
+that I can follow. Please ask any questions you have so that I can improve my prompt before you complete your task.
+
+
+------------------------------------------
+
+
+Fill-In-The-Blank Prompting:
+This format allows the user to focus on a specific aspect of a sentence or idea and encourages deeper thinking.
+Additionally, it is a flexible tool for learning and communication which can be easily adapted to different situations.
+Prompt Formula
+1. You are an expert at creating prompts that generate the most concise and resourceful responses. What additional
+bullet point details can I add to the following prompt to improve the output? My prompt is [your prompt].
+2. Great, now turn these bullet points into a fill in the blank format which I can put my information into.
+Examples
+• I have $100,000 in savings, what should I invest in?
+• How do I find and hire more talented designers for my fashion brand?
+
+----------------------------------------------
+
+
+Perspective Prompting:
+This framework can broaden your understanding and provide a more comprehensive view of the topic at hand.
+This can help you make more informed decisions and have a more nuanced understanding of complex issues.
+Prompt Formula
+• Singular Perspective: Please write about [topic] from the perspective of [view point].
+• Multiple Perspectives: Please write an argument [for/against] the topic of [topic] from multiple diverse perspectives.
+Include the names and points of view of the different perspectives, such as [view points].
+Examples
+• Singular Perspective: Please write about improving as a kickboxer from the perspective of a kickboxing coach.
+• Singular Perspective: Please write about improving as a kickboxer from the perspective of a human anatomy expert.
+• Multiple Perspectives: Please write an argument against genetically modified organisms (GMOs) that considers
+multiple perspectives. Include the names and points of view of the different perspectives, such as a farmer, a
+consumer, and a geneticist.
+
+
+-------------------------------------------
+
+Constructive Critic Prompting:
+This prompt can provide objective and expert feedback on your writing, highlighting areas for improvement and
+offering constructive criticism to help you refine and enhance your copy.
+Prompt Formula
+• I want you to act as an expert and critic in the subject of [industry]. Criticize my content pasted below, convince me
+why it’s bad, and give me constructive criticism on how it should be improved. For some context, my [product or
+service] is for [details, demographic, etc]. The purpose of my [product or service] is to [your content goal]. Let’s
+think step by step and I want you to address each piece of content individually. Here is my content to critique, [your
+content].
+Examples
+• I want you to act as an expert and critic in the subject of fashion. Criticize my content pasted below, convince me why
+it’s bad, and give me constructive criticism on how it should be improved. For some context, my product description
+is for my clothing brand for 20 to 30 year old eco-friendly customers, who appreciate unique modern aesthetics. The
+purpose of my product description is to get costumers to purchase more clothing products. Let’s think step by
+step and I want you to address each piece of content individually. Here is my content to critique, “Introducing our latest
+addition to our eco-friendly clothing collection, the "Modern Vibes" t-shirt! Made from 100% organic cotton, this t-shirt
+not only feels great on your skin but is also kind to the environment. With a sleek and modern design, this t-shirt is
+perfect for the fashion-savvy 20 to 30 year old who wants to make a statement while still being conscious of their
+environmental impact."
+
+------------------------------------
+
+
+Comparative Prompting:
+Comparative prompting highlights key similarities and differences across various factors which help you make
+more informed decisions and gain a deeper understanding of the strengths and weaknesses of two options.
+Prompt Formula
+• Please compare and contrast the following text examples. Outline the similarities, differences, qualitative
+characteristics, quantitative factors, functionality, impact, key takeaways, and other factors into one table. Here are the
+two pieces of content: [content 1] and [content 2].
+Examples
+• The business and design philosophy of Apple and Microsoft.
+• Investing in real estate and investing in cryptocurrency
+
+
+---------------------------------------
+
+Reverse Prompting:
+These two frameworks offer incredible insights into how to effectively reverse engineer any piece of content. As a
+result, this presents endless possibilities for enhancing both personal and professional projects.
+Prompt Formula
+Option 1
+1. You are a prompt engineering expert that is able to reverse engineer prompts based on the text that is provided to you. I
+am going to provide you with [type of content]. Be as specific as possible on providing a prompting suggestion based
+on the tone, style, syntax, language, and any other factors you consider relevant. I would like to use this prompt in the
+future to replicate the style of the provided text. Your prompt is effective if, when entered into ChatGPT in a normal
+context, it would provide the script. Please reply with 'understood' if that makes sense. If this does not make sense,
+don't reply, and ask further questions to clarify your understanding.
+2. Great, the text that I would like you to reverse engineer is [content].
+Option 2
+1. Let’s talk about reverse prompt engineering. By reverse prompt engineering, I mean creating a prompt from a given text.
+2. Can you give me a simple example of reverse prompt engineering?
+3. Great. Can you create a very technical reverse prompt engineering template?
+4. Now reverse prompt engineer the following [your text]. Be sure to capture the tone, syntax, language, and writing style
+of the text for the prompt you come up with.
+Examples
+• Apple AirPods Copy - Wireless. Effortless. Magical. With plenty of talk and listen time, voice-activated Siri access, and
+an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out
+and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in
+rich, high-quality sound. Just like magic.
+• Title or Description from Bestselling Amazon Product - “Fire TV Stick 4K, brilliant 4K streaming quality, TV and smart
+home controls, free and live TV”
+
+
+--------------------------------------------------
+
+
+RGC Prompting:
+This framework presents a robust structure that can be applied universally to any input and intended output. Its
+objective is to establish a standardized format that optimizes the framing for ChatGPT and thereby enhances its
+performance across a broad spectrum of inputs.
+Prompt Formula
+• Role - ChatGPT’s persona (You are an expert marketer)
+• Result - Desired output (Create 5 emails ending with a call to action)
+• Goal - Purpose of the output (The goal is to drive sales to my product)
+• Context - Who, what, where, why (The emails are for my online audience of entrepreneurs)
+• Constraint - Limitations and guidelines (The emails should be friendly and less than 200 words)
+Examples
+• You are an expert [role]. Create [result]. The goal is [end goal]. The content is for [context]. Your guidelines for writing
+are [constraints].
+• You are an expert marketer. Create 5 emails ending with a call to action. The goal is to drive sales to my product. The
+emails are for my online audience of entrepreneurs. The emails should be friendly and less than 200 words.
+• You are an expert nutritionist. Create a 7 day meal plan for my 5 foot 7, 40 year old, female client who exercises 3
+times a week. The goal is for her to lose 1 pound of fat a week by being in a caloric deficit and eating the right amount
+of carbs, sugar, and protein. She doesn’t eat pork and wants to spend $200 per week on food. The meal plan
+should give the recipes, cooking directions, preparation times, and a specific meal for breakfast, lunch, and dinner.
+
+----------------------------------------------------
+
+
+I Want You To Act As Prompting:
+This second option presents another robust structure that can be applied universally to any input and intended
+output. Its objective is to establish a standardized format that optimizes the framing for ChatGPT and thereby
+enhances its performance across a broad spectrum of inputs.
+Prompt Formula
+1. “I want you to act as a…” (historian, biologist, etc.) This helps to set the stage for ChatGPT’s persona.
+2. “I will give you…” (my target audience, a specific direction, a product, etc.) This is where you set up the dynamic
+between you and ChatGPT.
+3. “You will then…” (create 5 emails, make a video script, summarize, etc.)
+4. “In a _____ tone/style…” (upbeat, professional, tabular format) This is where you explain your desired output along
+with the personality/style of writing for the output.
+5. “The important details are…” (target audience, cost per project, etc.) Be sure to explain all important details and
+elaborate on specifics from bullet point 2.
+6. Refine your output as needed “Be more persuasive” “Put the most important keywords in bold” “Now put this in
+tabular format”
+Examples
+• I want you to act as a personal coach. I will give you my personal and professional goals. You will then create a 7
+day schedule in tabular format for me to follow in order to hit my goals. My short term daily goals are meditate,
+workout, read, and work on my projects. My long term goals are to sign 30 new clients and save $10,000 over the next
+6 months.
+• I want you to act as a virtual doctor. I will describe my symptoms and you will provide a diagnosis and treatment
+plan. You should only reply with your explanation, diagnosis, and treatment plan, and nothing else. My important
+details are, "I have been experiencing a headache and dizziness for the last few days, what could be the cause?”
+
+
+--------------------------------------
+
+
+Simple Prompt Starters : 
+1. Define the following term and give a metaphor…
+2. Elaborate on the purpose of...
+3. Create a template for...
+4. Construct an outline for this podcast...
+5. Help me create a budget plan for...
+6. Suggest some creative writing prompts to get me started...
+7. Brainstorm 10 ideas for improving the writing in this transcript...
+8. Draft a well thought-out chapter list for a book on...
+9. List some recipes using these ingredients...
+10. Formulate a catalog of subjects related to...
+11. Create a lesson plan for...
+12. Compose 5 headlines for...
+13. Sum up the following book in a tweet...
+14. Design a comprehensive social media content strategy for...
+15. Compose an introductory outreach email for...
+16. Recommend some metaphors/analogies/synonyms for...
+17. Craft a witty response to this message...
+18. Transform this title into an intriguing hook...
+19. Translate this into French...
+20. Compose a polite decline response to this email...
+21. Create an opening scene for a video showcasing...
+22. Suggest ways to improve my resume...
+23. Explain the concept of...
+24. Can you recommend some online courses or books to improve...
+25. What are some effective strategies for...
+26. Provide some tips for starting my…
+27. Suggest some healthy meal options for...
+28. Help me create a daily schedule to...
+29. Explain the basics of...
+30. Provide some guidance on...
+
+
+-------------------------------------------
+
+
+Effective Prompt Revisions
+
+In contrast to conventional search engines, ChatGPT possesses a unique memory capacity. It effectively retains
+information conveyed during prior conversations, thereby enabling future prompts to be informed by the complete
+conversation history. This feature is particularly useful, as it allows ChatGPT to understand context and subtleties
+by the accumulation of knowledge in one chain of dialogue.
+
+
+
+• Now put the single most important keywords in bold formatting…
+• Organize this by date, location, price, etc…
+• Come up with more novel and uncommon results…
+• Please add the appropriate emojis to the following text…
+• Explain this at the comprehension level of a 5 year old...
+• Put this in tabular format with relevant categories...
+• From the perspective of an industry expert, please rewrite…
+• Rewrite this to be more informal/formal…
+• Fix the grammar and find/replace the following terms…
+• Now add some personality and humor to this...
+• Write this from the perspective of or in the voice of...
+• Summarize this into one tweet...
+• Expand this into a 3 part summary…
+• Compare and contrast the most important information…
+• What are the 10 key takeaways…
+• From an expert point of view, how would you improve…
+• Put this into a bullet-point list...
+
+
+---------------------------------------------
+
+
+
