@@ -1,0 +1,203 @@
+PROMPT 1:
+
+Extract the food items from the restaurant review below:
+
+Input:
+It’s been 5 years since I left SF and my Hayes Valley Apartment right across the street from this cafe and I still think about the Pierogies and Honey Cake EVERY SINGLE DAY !
+
+My daughter and I frequently visited this establishment with many fond memories.
+
+This place is amazing !
+
+PROMPT 2:
+
+Classify the following text’s sentiment as positive, neutral, or negative
+
+Input:
+With it being listed as one of the Essential bakeries on the Eater list of bakeries in SF I came with quite an expectation but the place let me down in multiple ways. The menu had little variety and the items were hardly interesting. The pastry we had was also not that great. And for the price they charge the portion sizes are ridiculously small.
+
+Skip this place if you are looking for a hearty breakfast or brunch
+
+PROMPT 3:
+
+Classify the following text’s sentiment as positive, neutral, or negative
+
+Give me the Desired output only as a number as mentioned below
+
+-1 for negative, 0 for neutral, and 1 for positive
+
+Input:
+Nice place with a European touch. Need to order at the register. My wife ordered pierogi ($8.5). I ordered an open bagle with smoked salmon ($12). Her plate had 2 pierogies, tasty but I can’t specify what the filler was. My Bagle was below average mostly because of old-like bagle. As much as I like salmon sandwiches this was a bit of a pain to chew.
+
+PROMPT 4:
+
+Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old ?
+
+Let’s think step by step
+PROMPT 5:
+
+Translate the following text to Spanish, French, and Japanese
+
+Text : My favorite color is purple
+
+PROMPT 6:
+
+Translate the following text to Spanish, French, and Japanese. The output should be a JSON object
+
+Text : My favorite color is purple
+
+PROMPT 7:
+
+Transform the following text to 3rd person
+
+Text : I love ski so much. Today I went Skiing with my best friends and I fell really hard and broke 34 bones. I cried for hours. Now I am almost dead.
+
+PROMPT 8:
+
+Transform the following text to 3rd person female in the future tense 
+
+Text : I love ski so much. Today I went Skiing with my best friends and I fell really hard and broke 34 bones. I cried for hours. Now I am almost dead.
+
+PROMPT 9:
+
+Transform each movie title to emojis
+
+Cocaine Bear
+
+PROMPT 10: To proofread for grammar, spelling and readability. 
+
+I am absolutely obsessed with Stable Diffusion for image generation. MidJourney is great but Stable Diffusion let’s you create the EXACT image you’re looking for. However, to run it locally, you need a PC with a solid graphics card. Now, with RunDiffusion you can do everything you’d do with Stable DIffusion, but in the cloud, with amazing GPUs. I have Stable Diffusion locally installed but use RunDiffusion now instead because it’s faster that running it on my own computer.
+
+Please proofread for grammar, spelling and readability. Then give me the list of changes that you made.
+
+PROMPT 11: To summarize articles using bullet points of main ideas and important elements
+
+Since OpenAI released its blockbuster bot ChatGPT in November, users have casually experimented with the tool, with even Insider reporters trying to simulate news stories or use it to message potential dates.
+Its rapid adoption since then by some 100 million users in just its first two months is already changing how the internet will look and feel to users. With both Microsoft and Google incorporating generative AI into their search engines, it seems a matter of time before other websites adopt some kind of AI-driven interaction.
+OpenAI's new features announced in May could get us there soon enough. Users of its ChatGPT Plus subscription service will be able to use dozens of plug-ins for other websites, and a web-browsing feature that will let them access more current information than the old data set that ChatGPT was trained on.
+To older millennials who grew up with IRC chat rooms — a text instant message system — the personal tone of conversations with an AI bot can evoke the experience of chatting online. But ChatGPT, the latest in technology known as "large language model tools," doesn't speak with sentience and doesn't "think" the way people do.
+That means that even though ChatGPT can explain quantum physics or write a poem on command, a full AI takeover isn't exactly imminent, according to experts.
+Summarize the above article using bullet points of the main idea and important elements
+
+PROMPT 12: To know the Pros & Cons of using a product 
+Note : The sales page of a product will never share Cons. Here the ChatGPT shows its creativity & helps in finding it out
+
+Smart meetings, AI-enhanced
+Equipped with real-time AI superpowers, Waitroom is designed to outsmart conventional meeting tools, eliminating the usual grind and enabling participants to concentrate on their priorities. It's not just a tool, it's your intelligent meeting assistant — try Waitroom now!
+Get started freeBook a demo
+Get started with Waitroom
+1. Sign up to host
+Create your free account in seconds and get ready to upgrade the way you meet.
+2. Host an AI meeting
+Effortlessly start instant or scheduled meetings with an AI-driven meeting feed.
+3. Use it for free
+Don't wait! Take advantage of Waitroom while it's still free. Sign up is effortless!
+"We’re not a video conferencing platform that uses AI; we’re an AI platform that uses video conferencing."
+Vinny Lingham, Waitroom CEO
+WITNESS THE FUTURE OF MEETINGS
+Meetings reimagined: hello, Rumi AI
+Say hello to Rumi, Waitroom's AI chatbot, designed to drive smarter meetings. Rumi enables you to concentrate on the essentials - the conversation, the ideas, the teamwork. Just talk, and let Rumi's AI handle the rest, redefining the way you operate and extract value during and after all your meetings.
+PRODUCTIVITY AMPLIFIED
+Action items, summaries and insights, all in real-time
+Boost productivity and save time with Rumi's real-time AI tools: Never miss a beat with concise meeting summaries, effortlessly track action items and to-do's for accountability, and gain valuable insights, all within your meeting feed.
+
+AI GENERATED NEXT STEPS
+Summaries and recordings
+Review and recap important conversations after the meeting, using Rumi's post-meeting summaries and recordings — easily accessible within your Waitroom dashboard. Summaries are also sent via email to all participants, so you can follow up on action items or share information with those who missed the meeting.
+Enhance your meetings today with the power of AI
+Use Waitroom for free
+Use Waitroom for your team’s rituals
+Design Reviews
+Learn more
+Daily Stand-Ups
+Learn more
+All Hands
+Learn more
+Panel Interviews
+Learn more
+Office Hours
+Learn more
+Culture Building
+Learn more
+1-on-1 Meetings
+Learn more
+FOCUS
+Utilize the chaos busting turn-based format
+Eliminate Zoom fatigue with Waitroom's queue and timer format — No more talking over each other, distractions, or pointless waffling. Create a distraction-free and efficient meeting environment utilising sequential 1-on-1 group conversations.
+How it works
+How is Waitroom different
+AI-enhanced meetings
+Delivers real-time, concise meeting summaries
+Provides in-depth meeting insights
+Automates to-do’s, fostering accountability
+Timed slots with queue format
+Improves meeting focus and brevity
+Avoids waffling so meetings end on time
+Ensures equal opportunity to contribute
+Focus on what matters
+Simplifies your workday with automated AI
+Summaries aid continuity between meetings
+Never miss an action item again
+
+
+What are the pros and cons of using a software like this ?
+
+PROMPT 13: MidJourney Prompt
+
+Here is a formula for MidJourney Prompt : 
+
+A photograph of [subject][doing something] in [setting] during [time of day], taken with [type of camera] with [type of camera lens]. –ar 16:9 –v 5
+
+Do you understand the formula ? 
+
+Give an example of using this formula.
+
+PROMPT 14 : In continuation to the above MidJourney Prompt
+
+Write 5 MidJourney prompts, using the given formula with the subject being a basketball
+
+PROMPT 15 : Stable Diffusion Image
+
+Here’s a formula for a Stable Diffusion image prompt:
+
+An image of [adjective] [subject] [doing action],[creative lighting style], detailed, realistic, hd, trending on artstation, in the style of [famous artist 1], [famous artist 2], [famous artist 3]
+
+Write 5 Stable Diffusion image prompts using the above formula with the subject being a cricket player. Use modern artists from 2000s that create realistic imagery
+
+PROMPT 16 : Generate ideas to improve your business
+
+I have a website where I curate the coolest and most innovative computer software in the generative AI space. I add new tools to it daily and keep it very up to date. However, there are many other sites popping up that are copying the exact same idea and making similar websites. What are some creative ideas that I can do to make my site unique and build a ‘mote’ around what I’m creating ?
+
+Generate business ideas to improve my business above
+
+PROMPT 17 : Suggest Winning Youtube Titles
+
+My Mission | Our Nation Known as Creator of Technologies
+How to Launch RedHat LinuxOS in AWS Cloud and Connect it
+How to Read Entire RAM - Memory in Linux
+
+The above list is the titles of the most popular YouTube videos on my channel. Please suggest titles that will likely also be successful for new videos on my channel. Please suggest 10 new title ideas
+
+PROMPT 18 : Youtube Thumbnails for you
+
+I am going to use the title Securing Your RedHat Linux Instance in AWS Cloud: Best Practices and Techniques
+
+
+Mr Vimal Daga is a philanthropist who believes in serving the community. He is humble and very down to earth. He solves every query with politeness. He encourages students to believe in themselves
+
+Summarize the above content in 10 words. Each word should start with character A.
+
+
+
+Here is a formula for mid journey prompt: Write a code in some [programming language] which will encrypt the secret and store in [location] and it will be retrieved by [application] if a user needs to use the secret. Please complete my mid journey do you understand my formula? ======================== please give me two examples for this formula
+
+
+
+
+
+
+
+
+
+
+
