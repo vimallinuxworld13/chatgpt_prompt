@@ -1,10 +1,32 @@
-count the word : human are
+count the word: 
+
+Input: human are
 
 ---------------
 
 
 translate the text below to Hindi: 
 Text: "i want you"
+
+
+------------------------------
+
+translate the text below to Hindi: 
+
+Question: "i want you"
+Answer: (Mujhe tum chahiye.)
+
+Question:  "i love you"
+Answer:
+
+------------------------------------
+
+translate the text below to Hindi, French, Telugu: 
+
+
+Question:  "i love you"
+Answer:
+
 
 ---------------------
 
@@ -29,6 +51,15 @@ Summarize the following text
 Airbnb, Inc. (/ˌɛərˌbiːɛnˈbiː/ AIR-BEE-en-BEE) is an American San Francisco-based company operating an online marketplace for short- and long-term homestays and experiences. The company acts as a broker and charges a commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia. Airbnb is a shortened version of its original name, AirBedandBreakfast.com. The company is credited with revolutionizing the tourism industry, while also having been the subject of intense criticism by residents of tourism hotspot cities like Barcelona and Venice for enabling an unaffordable increase in home rents, and for a lack of regulation.[4][5]
 
 ------------------------------
+
+
+Summarize the following text in 3 points:
+
+Input : LinuxWorld was founded by Mr Vimal Daga in 2003 with a vision to spread awareness about Linux. He was the first one to introduce Linux in Rajasthan. Awakening the Youth through a culture of Right Education is the vision of LinuxWorld. LinuxWorld has served more than 10,00,000 lakh students & working professionals across India in last 10 years. Our goal is to provide biggest & best industry relevant content in the most affordable cost. 3 years in a row LinuxWorld has been awarded as “Best RedHat Partner across India & Asia Pacific”. We are the pioneers – 1st ones to launch programs on MLOps, Generative AIOps, DevOps Assembly Lines, Hybrid Multi Cloud, Quantum Computing & many more. LinuxWorld has 2 flagship programs namely ARTH – The School of Technologies & The Creator – The One & Only Research Based Summer Internship Industrial Training Program. Our alumnus are currently serving companies namely Microsoft, Google, Amazon, NTT Data, IBM, RedHat, Paytm, Nykaa, Deloitte, J P Morgan, & many more
+. Our Mentor & the Founder, Mr Vimal Daga believes that “Our Engineers Can be the Creators” which he publicly declared in his Tedx Talk & various workshops across India. We strongly believe in hand holding every technical learner & provide appropriate guidance which help them achieve SOMETHING BIG IN LIFE. We are working towards our mission of “MAKING INDIA, FUTURE READY !!”. Our Summer Interns call our Research Based Program as "Life Changing Summer Program". The Only program across the globe, where we learn everything from basic to advance level on Industry 4.0 technologies, research on technologies, integrate them & develop a Summer Live Project. At the same time, Biggest Summer Program since we have students participating from PAN India Engineering colleges. But after these 45 days Summer Program, learners quench to learn more technologies arises & they are willing to have continuous learning under the guidance of Mr Vimal Daga. Here comes our ARTH - The School of Technologies program, an opportunity to be under Mr Vimal Daga's guidance continuously for 12 months on all the possible trending technologies namely Data Science, DevOps, Cloud, DSA, Full Stack Development, RedHat Linux, Python, & much more.
+
+---------------------------
+
 
 alice is 7 years old than Beth, who is 5 years older than erica. what is the difference between the ages of alice and erica, if erica is 30 years old ?
 
