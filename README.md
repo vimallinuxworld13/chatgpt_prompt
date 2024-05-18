@@ -8,3 +8,4 @@ https://twitter.com/AiBreakfast/status/1625594172815339521?lang=en
 https://indianexpress.com/article/technology/google-invests-in-chatgpt-openai-rival-anthropic-8423250/
 
 
+https://github.com/Hannibal046/Awesome-LLM
