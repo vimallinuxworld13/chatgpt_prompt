@@ -9,3 +9,6 @@ https://indianexpress.com/article/technology/google-invests-in-chatgpt-openai-ri
 
 
 https://github.com/Hannibal046/Awesome-LLM
+
+https://www.techtarget.com/whatis/feature/12-of-the-best-large-language-models
+
